@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 //base route
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to the API" });
+  res.status(200).json({ message: "Welcome to the API runnntig at pm2" });
 });
 
 app.use("/api/v1", router);
